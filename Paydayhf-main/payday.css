@@ -1,0 +1,588 @@
+/* @font-face {
+    font-family: eina-bold;
+    src: url(./font/eina/Clash-Bold.ttf);
+}
+@font-face {
+    font-family: eina-regular;
+    src: url(./font/eina/Eina01-Regular.ttf);
+} */
+@font-face {
+    font-family: clash medium;
+    src: url(./font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Medium.ttf);
+}
+@font-face {
+    font-family: clash semibold;
+    src: url(./font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Semibold.ttf);
+}
+@font-face {
+    font-family: clash regular;
+    src: url(./font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: auto;
+}
+body{
+    /* width: 100dw; */
+}
+.logo img {
+    width: 150px;
+    margin-left: 100px;
+    
+}
+.Nav{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.nav {
+    color: white;
+    display: flex;
+    font-family: clash regular;
+    font-size: 15px;
+}
+.join{
+    color: white;
+    margin-right: 150px;
+    font-family: clash regular;
+    font-size: 15px;
+}
+.a,.f,.b{
+    margin-left: 60px;
+}
+.rightsection img{
+    width: 540px;
+   
+   
+}
+.leftsection{
+    flex: 1;
+    margin-left: 100px;
+
+}
+.hero{
+    display: flex;
+    color: white;
+    background: black;
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+.paytext p{
+    font-family: clash semibold;
+    font-size: 64px;
+    
+    /* width: 750px; */
+
+}
+.para{
+    font-size: 24px;
+    font-family: clash regular;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+.btn button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    margin: 15px;
+}
+button img{
+    width: 35px;
+    margin-left: 10px;
+}
+.btnwup{
+    display: flex;
+    align-items: center;
+}
+.btnp{
+    margin-left: 10px;
+    font-family: clash regular;
+}
+.p2{
+    margin-right: 10px;
+    font-family: clash semibold;    
+}
+.btnlogo{
+    display: flex;
+    margin-left: -15px; 
+}
+.trustedusercolor{
+    /* width: 45%; */
+    background-color: green;
+    border-radius: 12px;
+    color: green;
+    margin: 5px;
+    height: 4px;
+    font-family: clash regular;
+    width: 50px;
+}
+.trust span{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    
+}
+.rating{
+    padding: 10px;
+    display: flex;
+    padding-bottom: 20px;
+    
+    
+}
+.rating img{
+    width: 25px;
+}
+.Trust-Rating{
+    padding: 20px;
+    border-left: 1px solid lightgrey;
+
+    height: 50px;
+}
+.mouse-tr{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.mouse{
+    padding-right: 20px;
+}
+.Trust-Rating p{
+    padding-left: -10px;
+    font-family: clash regular;
+}
+.trusteduser{
+    font-family: clash regular;
+}
+.bckgrnd{
+    background-color: white;
+    padding-top: 30px;
+    
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+    padding: 39px;
+    
+}
+.elements img{
+    width: 370px;
+
+}
+.sendp{
+    margin-right: 10px;
+    font-family: clash semibold; 
+    text-align: center;
+    font-weight: 600;
+    
+    font-size: 39px;
+}
+.p2{
+    font-family: clash regular; 
+    text-align: center;
+    
+   
+
+}
+.home{
+    width: 55px;
+    color: white;    
+    border-radius: 90px;   
+}
+.accounts{
+    color: white;
+    font-family: clash semibold; 
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.div2 img{
+    width: 490px;
+    height: 1000px;
+    margin-top: -250px;
+}
+.home img{
+    margin: 50px;
+    border-radius: 30px;
+    width: 65px;
+}
+.white h4{
+    font-family: clash semibold; 
+    margin-left: 40px; 
+    margin-top: -40px;  
+    font-weight: 600;
+    color: white;
+    font-size: 45px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.white p{
+    font-family: clash regular; 
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrowcont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    margin-left: 40px; 
+    font-weight: 600;
+    border: none;
+    padding: 16px;
+    border-radius: 13px;
+}
+
+.div3 img{
+    width: 320px;
+    height: 400px;
+    margin-top: 30px;
+    
+}
+.card img{
+    margin: 50px;
+    border-radius: 30px;
+    width: 65px;
+}
+.black h4{
+    font-family: clash semibold; 
+    margin-left: 40px; 
+    margin-top: -40px;  
+    font-weight: 600;
+    color: white;
+    font-size: 45px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.black p{
+    font-family: clash regular; 
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrowcont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    margin-left: 40px; 
+    font-weight: 600;
+    border: none;
+    padding: 16px;
+    border-radius: 13px;
+}
+.trans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banking{
+    margin: 25px;
+}
+.paydaytag img{
+    width: 550px;
+}
+.city h1{
+    font-family: clash semibold;
+    font-size: 38px;
+    margin-left: 40px;
+}
+.city p{
+    font-family: clash regular; 
+    margin-left: 40px;
+}
+.paid h1{
+    font-family: clash semibold;   
+    font-size: 38px;
+    margin-left: 40px;
+}
+.paid p{
+    font-family: clash regular; 
+    margin-left: 40px;
+}
+.paydaytag1 img{
+    width: 550px;
+    height: 380px;
+}
+.paydaytag{
+    padding-bottom: 20px;
+}
+.paydaytag1{
+    padding-bottom: 20px;
+}
+.ft{
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: clash semibold;
+    text-align: center;
+}
+.plain img{
+    width: 1100px;
+}
+.plain{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    margin-bottom:200px ;
+    width: 1100px;
+    height: 100%;
+    margin-left: 155px;
+}
+.plain-text-cont{
+ position: absolute;
+ width: 100%;
+ 
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+.plain-text-cont p{
+    font-family: clash semibold;
+      
+    font-size: 36px;
+}
+.plainapad{
+       
+    display: flex;
+    
+}
+.plainap img{
+    display: flex;
+    border: none;    
+    width: 90px;
+      
+    height: 30px;    
+}
+.plainap{
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+}
+.plainapl p{
+    font-size: 15px;
+    font-family: clash regular;
+    display: flex;
+   
+    font-weight: 700;
+}
+.plainapl{
+
+    
+    justify-content: center;
+}
+.plainand{
+     
+}
+.plainan{
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+}
+.plainan img{
+    display: flex;
+    border: none;
+    
+    width: 90px;
+    height: 30px;
+}
+.plaindrd p{
+    font-size: 15px;
+    font-family: clash regular;
+    font-weight: 600;
+}
+.partners img{
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    padding: 45px;
+}
+.partners{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.footer{
+    background: black;
+    color: white;
+    display: flex;
+}
+.footlogo img {
+    width: 100px;
+    margin-left: 25px;
+}
+.foot{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    color: black;
+    padding: 30px;
+}
+.h{
+  
+    margin-left: 470px;
+    font-family: clash semibold;
+    color: white;
+    font-size: 19px;
+}
+.c{
+    color: white;
+    margin-left: 250px;
+    display: flex;
+    font-family: clash semibold;
+    font-size: 19px;
+
+}
+.colab{
+    background: black;
+    margin-top: -40px;
+
+}
+.abc{
+    font-family: clash regular;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;    
+}
+.locations{
+    background: black;   
+}
+.waka{
+    font-family: clash regular;
+    color: white;
+}
+.policy{
+    margin-left: -20px;
+    font-size: 16px;
+    font-family: clash regular;
+    margin-right: 230px;    
+}
+.policy p{
+    margin: 20px;
+    line-height: 25px;
+  margin-left: 60px;
+  
+}
+.icont{
+       display: flex;
+       justify-content: left;
+       align-items: center;
+       justify-self: left;
+    
+    
+        
+}
+.icontcon{
+     width: 30px;
+        height: 30px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        
+}
+.icont p{
+    margin-left: 15px;
+    
+
+}
+
+.icont .fab{
+    color: black;
+
+}
+.mark{
+    color: gray;
+    margin-right: 0px;
+}
+.support p{
+    margin-right: 30px;    
+    
+
+
+}
+.scl{
+    
+    padding: 20px 0;
+    
+        justify-content: left;
+        align-items: left;
+        font-family: clash semibold;
+    font-size: 17px;
+}
+
+.branches{
+    color: white;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    font-family: clash regular;
+    font-size: 17px;
+    padding: 60px;
+    margin-left: -70px;
+}
+.lcs img{
+    width: 30px;
+    
+    border-radius: 50px;
+}
+.lcs{
+    
+    display: flex;
+       justify-content: left;
+       align-items: center;
+       justify-self: left;
+       padding: 10px;
+       
+}
+.branches h3{
+    font-family: clash semibold;
+    font-size: 20px;
+}
+.end{
+    background: black;
+}
+.endline{
+    font-family: clash regular;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 150px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    border-top: 1px solid gray;     
+       align-items: left;
+    font-size: 18px;
+    padding: 30px;
+    line-height: 25px;
+    font-size: 13px;
+}
